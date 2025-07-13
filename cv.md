@@ -18,6 +18,7 @@ Junior Frontend Developer with solid knowledge of JavaScript and strong interest
 
 
  
+
 ## Skills
 
 - **Languages:** JavaScript (ES6+), HTML5, CSS3  
@@ -27,3 +28,15 @@ Junior Frontend Developer with solid knowledge of JavaScript and strong interest
 - **Methodologies:** BEM, Agile basics  
 
 
+
+---
+
+## Code Example
+
+Here is a solution to the "Duck Duck Goose" task using JavaScript:
+
+```javascript
+function duckDuckGoose(players, goose) {
+  let index = (goose - 1) % players.length;
+  return players[index].name;
+};
