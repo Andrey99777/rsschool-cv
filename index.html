@@ -7,7 +7,52 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>My CV</h1>
-  <p>This is the beginning of my HTML & CSS CV project.</p>
+ <header>
+    <h1>Andrei Kurachkin</h1>
+    <img src="https://avatars.githubusercontent.com/u/197785084?v=4" alt="Andrei Kurachkin photo" width="150" />
+  </header>
+
+  <section>
+    <h2>Contacts</h2>
+    <ul>
+      <li>📧 Email: <a href="mailto:kurachkinandrey98@gmail.com">kurachkinandrey98@gmail.com</a></li>
+      <li>📞 Phone: +48 790 839 647</li>
+      <li>🌐 GitHub: <a href="https://github.com/Andrey99777" target="_blank" rel="noopener noreferrer">Andrey</a></li>
+      <li>💬 Discord: atom_null</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Summary</h2>
+    <p>
+      Junior Frontend Developer with solid knowledge of JavaScript and strong interest in creating interactive web interfaces. Able to build components such as modals, accordions, and sliders using vanilla JS and lightweight libraries. Motivated to learn and grow as a developer.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> JavaScript (ES6+), HTML5, CSS3</li>
+      <li><strong>Frameworks & Libraries:</strong> Vanilla JavaScript (DOM manipulation, event handling), simple slider libraries</li>
+      <li><strong>Databases:</strong> Basic knowledge of creating and managing databases using browser storage (e.g., <code>localStorage</code>)</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code, npm</li>
+      <li><strong>Methodologies:</strong> BEM, Agile basics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Code Example</h2>
+    <p>Here is a solution to the "Duck Duck Goose" task using JavaScript:</p>
+    <pre><code>
+function duckDuckGoose(players, goose) {
+  let index = (goose - 1) % players.length;
+  return players[index].name;
+};
+    </code></pre>
+  </section>
+
+  <footer>
+    <p>© Andrei Kurachkin</p>
+  </footer>
 </body>
 </html>
